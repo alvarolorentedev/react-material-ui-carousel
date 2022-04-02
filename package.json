@@ -29,7 +29,6 @@
         ]
     },
     "scripts": {
-        "prepare": "npm run build",
         "build": "npx rimraf dist && npm run build:cjs",
         "build:cjs": "tsc --module commonjs --outDir dist",
         "build_old": "NODE_ENV=production && npx rimraf dist && npx mkdirp dist && npx babel ./src --out-dir dist --copy-files"
