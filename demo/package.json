@@ -15,7 +15,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-material-ui-carousel": "^3.3.2",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "resolutions": {
     "//": "See https://github.com/facebook/create-react-app/issues/11773",
